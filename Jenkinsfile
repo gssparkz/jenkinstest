@@ -7,7 +7,7 @@ pipeline {
         when {
             expression {
 
-                BRANCH_NAME == 'Dev' && CODE_CHANGES == true
+                env.BRANCH_NAME == 'Dev' && env.CODE_CHANGES == true
             }     
         
         }
@@ -25,7 +25,7 @@ pipeline {
         when {
             expression {
 
-                BRANCH_NAME == 'Dev'
+                env.BRANCH_NAME == 'Dev'
             }     
         
         }
