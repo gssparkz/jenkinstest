@@ -32,7 +32,7 @@ pipeline {
 
         steps {
 
-        echo 'This is build stage'
+        echo 'This is testing stage'
 
        }
       } 
@@ -42,7 +42,7 @@ pipeline {
 
        steps {
 
-        echo 'This is build stage'
+        echo 'This is Deployment stage'
 
        }
       } 
